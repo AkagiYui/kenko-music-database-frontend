@@ -1,0 +1,17 @@
+{
+  "name": "@kmd/ui",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "react": "catalog:cli",
+    "react-dom": "catalog:cli"
+  },
+  "devDependencies": {
+    "typescript": "catalog:cli",
+    "@types/react": "catalog:cli",
+    "@types/react-dom": "catalog:cli"
+  }
+}

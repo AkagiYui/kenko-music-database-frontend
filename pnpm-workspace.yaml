@@ -1,0 +1,15 @@
+packages:
+  - packages/*
+
+onlyBuiltDependencies:
+  - '@swc/core'
+  - esbuild
+  - simple-git-hooks
+
+catalogs:
+  cli:
+    '@types/react': ^19.1.0
+    '@types/react-dom': ^19.1.0
+    react: ^19.1.0
+    react-dom: ^19.1.0
+    typescript: ~5.7.2

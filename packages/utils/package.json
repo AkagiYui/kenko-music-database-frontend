@@ -1,0 +1,11 @@
+{
+  "name": "@kmd/utils",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "catalog:cli"
+  }
+}

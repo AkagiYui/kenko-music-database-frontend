@@ -1,0 +1,7 @@
+semi: false # 行尾加分号：不
+singleQuote: true # 使用单引号：是
+trailingComma: all # 尾逗号：全部
+printWidth: 120 # 单行代码长度：120
+tabWidth: 2 # 缩进空格数：2
+useTabs: false # 缩进不使用 tab，而使用空格：否
+endOfLine: lf # 换行符：lf
