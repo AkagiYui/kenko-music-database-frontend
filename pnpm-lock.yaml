@@ -4,6 +4,30 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+catalogs:
+  cli:
+    '@types/react':
+      specifier: ^19.1.0
+      version: 19.1.1
+    '@types/react-dom':
+      specifier: ^19.1.0
+      version: 19.1.2
+    react:
+      specifier: ^19.1.0
+      version: 19.1.0
+    react-dom:
+      specifier: ^19.1.0
+      version: 19.1.0
+    typescript:
+      specifier: ~5.7.2
+      version: 5.7.3
+    vite:
+      specifier: ^6.2.0
+      version: 6.2.6
+    vitest:
+      specifier: ^3.1.1
+      version: 3.1.1
+
 importers:
 
   .:
@@ -15,10 +39,10 @@ importers:
         specifier: ^2.5.0
         version: 2.5.0
       vite:
-        specifier: ^6.2.0
+        specifier: catalog:cli
         version: 6.2.6(@types/node@22.14.1)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.1)
       vitest:
-        specifier: ^3.1.1
+        specifier: catalog:cli
         version: 3.1.1(@types/node@22.14.1)(@vitest/ui@3.1.1)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.1)
 
   packages/main:
@@ -67,7 +91,7 @@ importers:
         specifier: ^8.24.1
         version: 8.29.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.7.3)
       vite:
-        specifier: ^6.2.0
+        specifier: catalog:cli
         version: 6.2.6(@types/node@22.14.1)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.1)
 
   packages/ui:
